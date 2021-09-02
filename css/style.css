@@ -108,15 +108,42 @@ border:7px solid #e9ecef;
 
 /* CONTACT SEKTION START */
 
+/* contact section  */
 
 
-
-
-
-
-
-
-
+#contact{
+    padding:4% 0;
+    background-color: #212529 ;
+    background-image: url(../images/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.contact-title h2{
+    font-size: 3rem;
+    color: white;
+}
+.contact-title i {
+    color: #6c757d;
+}
+#contact .form-control::placeholder,#contact textarea::placeholder{
+    font-weight: 700;
+    color: rgba(158, 157, 157, 0.267);
+    font-size: larger;
+}
+#contact .form-control{
+    border: unset;
+}
+#contact .form-control:focus{
+    box-shadow: 0 0 0 0.01rem #ffe480;
+    border-color:  #ffe480;
+    border:2px solid #ffe480 ;
+}
+#contact .contact-btn{
+    opacity: .6;
+    background-color: #ffc800;
+}
 /* CONTACT SEKTION END */
 
 
@@ -125,14 +152,12 @@ border:7px solid #e9ecef;
 
 /* FOOTER SEKTION START */
 
-
-
-
-
-
-
-
-
+/* footer section  */
+.footer-icon{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
 
 /* FOOTER SEKTION END */
 
