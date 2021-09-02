@@ -1,0 +1,207 @@
+
+/* MAIN SEKTION START */
+
+
+
+
+
+
+/* MAIN SEKTION END */
+
+
+
+
+
+/* SERVICE SEKTION START */
+
+
+
+
+
+
+
+/* SERVICE SEKTION END */
+
+
+
+
+
+/* PORTFOLIO SEKTION START */
+
+
+
+
+
+
+
+
+
+/* PORTFOLIO SEKTION END */
+
+
+
+
+
+/* ABOUT SEKTION START */
+.about .about-text p{
+    max-width: 400px;
+    
+}
+.about .about-img{
+    display: flex;
+    justify-content: center;
+}
+.about .about-img img{
+    border:7px solid #e9ecef;
+    width: 165px ;
+    position: relative !important;
+}
+.about .about-img::after{
+    content: "";
+    position: absolute;
+    bottom:0%;
+    left: 50%;
+    width: 2px;
+    height: 130px;
+   transform: translateY(100%);
+    background-color: #e9ecef;
+}
+.about .about-img-befor::before{
+    content: "";
+    position: absolute;
+    top:0%;
+    left: 50%;
+    width: 2px;
+    height: 90px;
+   transform: translateY(-100%);
+    background-color: #e9ecef;
+}
+.about .about-no-img h5{
+width: 165px;
+height: 151px;
+background-color: #ffc800;
+border:7px solid #e9ecef;
+}
+.about .row{
+    margin-bottom: 100px;
+}
+/* ABOUT SEKTION END */
+
+
+
+
+/* TEAM SEKTION START */
+
+
+
+
+
+
+
+
+
+/* TEAM SEKTION END */
+
+
+
+
+
+/* CONTACT SEKTION START */
+
+
+
+
+
+
+
+
+
+
+/* CONTACT SEKTION END */
+
+
+
+
+
+/* FOOTER SEKTION START */
+
+
+
+
+
+
+
+
+
+
+/* FOOTER SEKTION END */
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES START */
+
+@media screen and (max-width:185px) {
+    .about .about-img-befor::before{
+        height: 380px;
+    }
+    .about .about-img::after{
+        height: 370px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+  
+    .about .about-img img{
+        width:90px ;
+        height: 90px;
+    }
+    .about .about-no-img h5{
+        width: 90px;
+        height: 90px;
+        font-size: 0.7rem !important ;
+    }
+    .about .row{
+        margin-bottom: 30px;
+    }
+ 
+}
+
+@media screen and (min-width:767px) and (max-width:992px) {
+    .about .about-img img{
+        width: 120px ;
+        height: 120px;
+    }
+    .about .about-no-img h5{
+        width: 120px;
+        height: 120px;
+        font-size: 1.1rem !important ;
+    }
+    .about .about-img-befor::before{
+        height: 150px;
+    }
+    .about .row{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .about .about-img img{
+        width: 150px ;
+    }
+    .about .about-no-img h5{
+        width: 150px;
+        font-size: 1.2rem  !important;
+    }
+    .about .row{
+        margin-bottom: 40px;
+    }
+
+}
+
+/* MEDIA QUERIES END */
