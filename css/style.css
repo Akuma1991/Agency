@@ -17,6 +17,45 @@
 
 
 
+.serv-title {
+    margin-top: 2.2rem;
+    }
+    .serv-title p{
+        font-style: italic;
+    }
+    .services h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .services h3{
+        font-weight: 700;
+    }
+    .services{
+        height: 80vh;
+     display: flex;
+      flex-direction: column;
+      font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+    }
+    
+    .serv-content{
+        padding: 1rem;
+        /* background-color: aqua; */
+        /* margin-top: 4rem; */
+    }
+    .serv-content p ,.services p{
+        color: #6c757d !important;
+        line-height: 1.75;
+        font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    }
+    .serv-content i{
+        font-size: 4rem !important;
+        color: white;
+        background-color: #ffc800;;
+    }
+    .fa-lock{
+        padding:1.5rem  1.8rem !important;
+    }
 
 
 
