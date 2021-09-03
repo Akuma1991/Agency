@@ -1,4 +1,6 @@
-
+*{
+    /* border: 1px solid red; */
+}
 /* MAIN SEKTION START */
 
 .home{
@@ -14,63 +16,12 @@
 .naving{
 position: fixed;
 top: 0;
-left: 100px;
-}
-@media all and (max-width: 768px){
-    .naving{
-        position: fixed;
-        top: 0;
-        left: 0;
-        } 
-}
-.head{
-    position: absolute;
-    top: 62%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-a:hover{
-    color: #FFC800 !important;      
-}
-.head-btn{
-  border: none;
-}
-.head .head2{
-    font-size: 2.25rem;
-    font-style: italic;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", 
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-.head .head1{
-    font-size: 4rem;
-    font-weight: 700;
-    line-height: 4.5rem;
-    margin-bottom: 4rem;
-}
-.head-btn:hover{
-    background-color: #c49a02 !important;
+/* left: 50%;
+transform: translateX(-50%); */
+background-color: rgba(0, 0, 0, 0.2);
+z-index: 1000;
 }
 
-@media screen and (max-width:1300px) and (min-width:999px){
-    .head1{
-        width: 180% !important;
-        margin-left: 29rem !important;
-    }    
-    }
-    @media screen and (max-width:998px) and (min-width:870px){
-        .head1{
-            width: 180% !important;
-            margin-left: 29rem !important;
-        }    
-        }
-        @media screen and (max-width:870px) and (min-width:700px){
-            .head1{
-                width: 160% !important;
-                margin-left: 29rem !important;
-            }    
-            }
 
 
 
@@ -100,7 +51,7 @@ a:hover{
         font-weight: 700;
     }
     .services{
-        padding: 8rem !important;
+        padding: 1rem !important;
         /* height: 80vh; */
      display: flex;
       flex-direction: column;
@@ -123,10 +74,11 @@ a:hover{
         color: white;
         background-color: #ffc800;;
     }
-    .fa-lock{
-        padding:1.5rem  1.8rem !important;
-    }
-
+   
+.services .rounded-circle{
+    width:9rem !important;
+    height:9rem !important;
+}
 
 
 /* SERVICE SEKTION END */
@@ -220,6 +172,7 @@ a:hover{
 .about .about-img img{
     border:7px solid #e9ecef;
     width: 165px ;
+    height: 165px ;
     position: relative !important;
 }
 .about .about-img::after{
@@ -238,7 +191,7 @@ a:hover{
     top:0%;
     left: 50%;
     width: 2px;
-    height: 90px;
+    height: 40px;
    transform: translateY(-100%);
     background-color: #e9ecef;
 }
@@ -444,9 +397,11 @@ border:7px solid #e9ecef;
 @media screen and (min-width:992px) and (max-width:1200px) {
     .about .about-img img{
         width: 150px ;
+        height: 150px;
     }
     .about .about-no-img h5{
         width: 150px;
+        height: 150px;
         font-size: 1.2rem  !important;
     }
     .about .row{
@@ -454,5 +409,61 @@ border:7px solid #e9ecef;
     }
 
 }
+
+@media all and (max-width: 768px){
+    .naving{
+        position: fixed;
+        top: 0;
+        } 
+}
+.head{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+a:hover{
+    color: #FFC800 !important;      
+}
+.head-btn{
+  border: none;
+}
+.head .head2{
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", 
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.head .head1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+    margin-left:0 !important ;
+}
+.head-btn:hover{
+    background-color: #c49a02 !important;
+}
+
+@media screen and (max-width:1300px) and (min-width:999px){
+    .head1{
+        width: 180% !important;
+        margin-left: 29rem !important;
+    }    
+    }
+    @media screen and (max-width:998px) and (min-width:870px){
+        .head1{
+            width: 180% !important;
+            margin-left: 29rem !important;
+        }    
+        }
+        @media screen and (max-width:870px) and (min-width:700px){
+            .head1{
+                width: 160% !important;
+                margin-left: 29rem !important;
+            }    
+            }
 
 /* MEDIA QUERIES END */
