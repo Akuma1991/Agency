@@ -359,6 +359,16 @@ border:7px solid #e9ecef;
     }
 
 }
+@media screen and (min-width:185px) and (max-width:430px) {
+    .about .about-img-befor::before{
+        height: 190px;
+    }
+    .about .about-img::after{
+        height: 300px;
+    }
+
+}
+
 
 @media screen and (max-width:767px) {
   
